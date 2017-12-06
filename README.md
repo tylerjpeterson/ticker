@@ -14,7 +14,7 @@ Tries to help facilitate measure/render grouping by firing two separate events a
 Install via npm:
 
 ```sh
-$ npm i ticker --save
+$ npm i ticker-js --save
 ```
 
 
@@ -58,7 +58,7 @@ The two events pass listeners an event object as defined below.
 Instantiate and attach any listeners.
 
 ```js
-var Ticker = require('ticker');
+var Ticker = require('ticker-js');
 var ticker = new Ticker(30);
 
 ticker.on('update', function (evt) {
