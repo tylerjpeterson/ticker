@@ -1,6 +1,6 @@
 ![100% test coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
 
-# ticker
+# ticker-js
 > Event-emitting time keeper for browser friendly render cycles
 
 Browser-based module that fires events at a given interval to facilitate interactions on a timeline.
