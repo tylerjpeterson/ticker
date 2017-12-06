@@ -17,7 +17,7 @@ Install via npm:
 $ npm i ticker --save
 ```
 
-#### Usage
+## Usage
 Require ticker and instantiate an instance.
 
 ```js
