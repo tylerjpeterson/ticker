@@ -17,13 +17,6 @@ Install via npm:
 $ npm i ticker --save
 ```
 
-## Usage
-Require ticker and instantiate an instance.
-
-```js
-var Ticker = require('ticker');
-var ticker = new Ticker();
-```
 
 ## API
 All properties should be accessed via the getter and setter methods.
