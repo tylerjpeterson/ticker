@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Event-emitting time keeper for browser friendly render cycles",
   "author": "Tyler Peterson <tylerjpeterson@gmail.com>",
-  "main": "dist/ticker.js",
+  "main": "index.js",
   "scripts": {
     "coverage": "mkdir -p coverage && browserify test/spec/test.js -p tape-istanbul/plugin | tape-run | tape-istanbul --output coverage/coverage.json && npm run report",
     "report": "istanbul report --root coverage lcov && open coverage/lcov-report/index.html",
@@ -26,7 +26,7 @@
     "istanbul": "^0.4.5",
     "jsdoc": "^3.4.3",
     "tap-spec": "^4.1.1",
-    "tape": "^4.8.0",
+    "tape": "^4.6.3",
     "tape-istanbul": "^1.1.1",
     "tape-run": "^3.0.0",
     "xo": "^0.17.1"
