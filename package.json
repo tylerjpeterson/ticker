@@ -1,6 +1,6 @@
 {
   "name": "ticker-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Event-emitting time keeper for browser friendly render cycles",
   "author": "Tyler Peterson <tylerjpeterson@gmail.com>",
   "main": "index.js",
