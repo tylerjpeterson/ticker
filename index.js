@@ -192,7 +192,7 @@ Ticker.prototype._animFrame = function (evt) {
 
 	if (this.fps || this.listenerCount('update') > 0) {
 		/**
-	     * update event
+	     * Update event
 	     * @event Ticker#update
 	     * @type {object}
 	     *
@@ -217,7 +217,7 @@ Ticker.prototype._animFrame = function (evt) {
 			}
 		} else {
 			/**
-		     * render event
+		     * Render event
 		     * @event Ticker#render
 		     * @type {object}
 		     *
