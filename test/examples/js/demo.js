@@ -30,6 +30,11 @@ toggleEl.addEventListener('click', function (evt) {
 
 throttleEl.addEventListener('click', function (evt) {
 	evt.preventDefault();
+
+	if (!toggleEl.classList.contains('active')) {
+		return;
+	}
+
 	throttleEl.classList.toggle('active');
 
 	if (ticker.getFps()) {
